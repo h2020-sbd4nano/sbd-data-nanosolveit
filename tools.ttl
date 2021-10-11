@@ -17,3 +17,35 @@ PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
   dct:license <http://example.com/unknown> ;
   foaf:page <http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/> .
 
+<https://cellviability.cloud.nanosolveit.eu/> a sbd:Model ;
+  dc:source <https://nanosolveit.eu/resources/tools-services/> ;
+  rdfs:label "NanoSolveIT Cytotoxicity (Cell Viability) Prediction for Metal Oxide NPs"@en ;
+  dc:description "A tool to predict the cytotoxicity of metal oxide nanomaterials to human bronchial epithelial (BEAS-2B) and murine myeloid (RAW 264.7) cell lines using single parameter (% cell viability) adenosine triphosphate (ATP) and lactate dehydrogenase (LDH) assays, based on selected physicochemical, atomistic and molecular descriptors."@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://cellviability.cloud.nanosolveit.eu/> .
+
+<https://deepdaph.cloud.nanosolveit.eu/> a sbd:Model ;
+  dc:source <https://nanosolveit.eu/resources/tools-services/> ;
+  rdfs:label "DeepDaph"@en ;
+  dc:description "A workflow applying two different deep learning architectures on microscopic images of Daphnia magna is proposed that can automatically detect possible malformations, such as effects on the length of the tail, and the overall size, and uncommon lipid concentrations and lipid deposit shapes, which are due to direct or parental exposure to ENMs."@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://deepdaph.cloud.nanosolveit.eu/> .
+
+<https://nanofase.cloud.nanosolveit.eu/> a sbd:Model ;
+  dc:source <https://nanosolveit.eu/resources/tools-services/> ;
+  rdfs:label "NanoFASE Soil-water-organism model"@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://nanofase.cloud.nanosolveit.eu/> .
+
+<https://aerosol.cloud.nanosolveit.eu/> a sbd:Model ;
+  dc:source <https://nanosolveit.eu/resources/tools-services/> ;
+  rdfs:label "NanoSolveIT Tool for Assessment of Human Exposure to Nanomaterials"@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://aerosol.cloud.nanosolveit.eu/> .
+
+<https://funmappone.cloud.nanosolveit.eu/> a sbd:Model ;
+  dc:source <https://nanosolveit.eu/resources/tools-services/> ;
+  rdfs:label "FunMappOne"@en ;
+  dc:description "FunMappOne is a R-shiny graphical tool that takes in input multiple lists of human or mouse genes, optionally along with their related modification magnitudes, computes the enriched annotations from Gene Ontology, Kyoto Encyclopedia of Genes and Genomes, or Reactome databases, and reports interactive maps of functional terms and pathways organized in rational groups. FunMappOne allows a fast and convenient comparison of multiple experiments and an easy way to interpret results."@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://funmappone.cloud.nanosolveit.eu/> .
