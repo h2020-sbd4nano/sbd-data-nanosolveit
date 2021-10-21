@@ -8,7 +8,9 @@ PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
 <https://nanosolveit.eu/resources/tools-services/>
  a                    void:DatasetDescription ;
  dct:title            "NanoSolveIT Tools"@en ;
- dct:license          <http://example.com/unknown> .
+ dct:license          <http://example.com/unknown> ;
+ dc:source            <https://nanosolveit.eu/resources/tools-services/> ;
+ foaf:img             <https://nanosolveit.eu/wp-content/uploads/2019/06/NanoSolveIT-300x114-Transparent-Half.png> .
 
 <http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/> a sbd:Model ;
   dc:source <https://nanosolveit.eu/resources/tools-services/> ;
