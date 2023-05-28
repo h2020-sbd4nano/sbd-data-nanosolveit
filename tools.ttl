@@ -6,6 +6,10 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix void:    <http://rdfs.org/ns/void#> .
 
+@prefix MOx: <http://purl.bioontology.org/ontology/npo#NPO_1541> .
+@prefix Metal: <http://purl.bioontology.org/ontology/npo#NPO_1384> .
+@prefix NP: <http://purl.bioontology.org/ontology/npo#NPO_707> .
+
 <https://nanosolveit.eu/resources/tools-services/>
  a                    void:DatasetDescription ;
  dct:title            "NanoSolveIT Tools"@en ;
@@ -18,21 +22,24 @@
   rdfs:label "PhysChem: Zeta potential NanoXtract model" ;
   dc:description "A novel nanoinformatics predictive model using new computational descriptors from TEM images for the prediction of NMs properties, such as zeta potential."@en ;
   dct:license <http://example.com/unknown> ;
-  foaf:page <http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/> .
+  foaf:page <http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/> ;
+  sbdbel:NP MOx:, Metal: .
 
 <https://cellviability.cloud.nanosolveit.eu/> a sbd:Model ;
   dc:source <https://nanosolveit.eu/resources/tools-services/> ;
   rdfs:label "NanoSolveIT Cytotoxicity (Cell Viability) Prediction for Metal Oxide NPs"@en ;
   dc:description "A tool to predict the cytotoxicity of metal oxide nanomaterials to human bronchial epithelial (BEAS-2B) and murine myeloid (RAW 264.7) cell lines using single parameter (% cell viability) adenosine triphosphate (ATP) and lactate dehydrogenase (LDH) assays, based on selected physicochemical, atomistic and molecular descriptors."@en ;
   dct:license <http://example.com/unknown> ;
-  foaf:page <https://cellviability.cloud.nanosolveit.eu/> .
+  foaf:page <https://cellviability.cloud.nanosolveit.eu/> ;
+  sbdbel:NP MOx: .
 
 <https://deepdaph.cloud.nanosolveit.eu/> a sbd:Model ;
   dc:source <https://nanosolveit.eu/resources/tools-services/> ;
   rdfs:label "DeepDaph"@en ;
   dc:description "A workflow applying two different deep learning architectures on microscopic images of Daphnia magna is proposed that can automatically detect possible malformations, such as effects on the length of the tail, and the overall size, and uncommon lipid concentrations and lipid deposit shapes, which are due to direct or parental exposure to ENMs."@en ;
   dct:license <http://example.com/unknown> ;
-  foaf:page <https://deepdaph.cloud.nanosolveit.eu/> .
+  foaf:page <https://deepdaph.cloud.nanosolveit.eu/> ;
+  sbdbel:NP NP: .
 
 <https://nanofase.cloud.nanosolveit.eu/> a sbd:Model ;
   dc:source <https://nanosolveit.eu/resources/tools-services/> ;
@@ -44,7 +51,8 @@
   dc:source <https://nanosolveit.eu/resources/tools-services/> ;
   rdfs:label "NanoSolveIT Tool for Assessment of Human Exposure to Nanomaterials"@en ;
   dct:license <http://example.com/unknown> ;
-  foaf:page <https://aerosol.cloud.nanosolveit.eu/> .
+  foaf:page <https://aerosol.cloud.nanosolveit.eu/> ;
+  sbdbel:NP NP: .
 
 <https://funmappone.cloud.nanosolveit.eu/> a sbd:Model ;
   dc:source <https://nanosolveit.eu/resources/tools-services/> ;
